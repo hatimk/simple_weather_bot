@@ -1,0 +1,56 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - bonjour
+    - salut
+    - hey
+    - hello
+    - hola
+    - coucou
+- intent: goodbye
+  examples: |
+    - au revoir
+    - bye
+    - ciao
+    - bye bye
+    - à plus
+    - à plus tard
+    - à la prochaine
+- intent: ask_bot_purpose
+  examples: |
+    - à quoi sers-tu?
+    - que sais-tu faire?
+    - quels services rends-tu?
+    - quelle est ta raison d'être?
+    - pourquoi existes-tu?
+    - quel est le sens de ton existence?
+    - liste de services
+    - comment peux-tu m'aider?
+    - quelles sont tes capacités?
+    - sais-tu faire le café?
+- intent: bot_challenge
+  examples: |
+    - est-ce que tu es un bot?
+    - est-ce que tu es humain?
+    - suis-je en train de parler à un chatbot?
+    - est-ce que je parle à un humain?
+    - chatbot ou humain?
+    - es-tu un robot?
+    - je parle à une machine?
+    - c'est un algorithme?
+    - es-tu une intelligence artificielle?
+    - c'est une IA à laquelle je parle?
+- intent: ask_weather
+  examples: |
+    - quelle est la météo à [Paris](city)?
+    - rapport météo [Berlin](city)
+    - quel temps fait-il à [Tokyo](city)?
+    - donne-moi la météo à [San Francisco](city)
+    - je me demande quel temps il fait à [Pékin](city)
+    - il fait quel temps à [Bruxelles](city) l'ami?
+    - que peux-tu me dire sur [Manille](city)?
+    - quelle est la situation à [Bogota](city)?
+    - que peux-tu me dire sur [San Sebastian](city)?
+  
